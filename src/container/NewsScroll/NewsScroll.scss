@@ -1,0 +1,63 @@
+.news{
+    min-height:70px;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+/* Ticker container styles */
+.ticker-container {
+  width: 100%;
+  overflow: hidden;
+
+}
+
+/* Ticker list styles */
+.ticker-list {
+  display: flex;
+  animation: scroll-ticker 20s linear infinite; /* Adjust the speed as needed */
+}
+
+/* Ticker item styles */
+.ticker-item {
+  padding: 0 20px; /* Add some space between items */
+  list-style: none;
+  font-size:40px;
+}
+
+/* Animation keyframes to create the scrolling effect */
+@keyframes scroll-ticker {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@media (max-width:1028px) {
+  .news{
+    min-height:50px;   
+}
+.ticker-container {
+ width:80%;
+}
+.ticker-list {
+  animation: scroll-ticker 30s linear infinite; /* Adjust the speed as needed */
+}
+.ticker-item {
+  padding: 0 5px; /* Add some space between items */
+  list-style: none;
+  font-size:10px;
+}
+
+/* Animation keyframes to create the scrolling effect */
+@keyframes scroll-ticker {
+  0% {
+    transform: translateX(80%);
+  }
+  100% {
+    transform: translateX(-80%);
+  }
+}
+}

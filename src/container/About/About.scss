@@ -1,0 +1,79 @@
+#about {
+  position: relative;
+  min-height: 100vh;
+  // disable the default padding styles
+  .app__wrapper {
+    padding: 0;
+
+    .copyright {
+      display: none;
+    }
+  }
+}
+.app__flex{
+   display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.app__about {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+    position: relative;
+
+.app__about-badge{
+ .head-text{
+  font-size: 100px;
+  }
+  .head1{
+    position: relative;
+    left:-200px;
+  }
+  .head2{
+      position: relative;
+      left:-10px;
+  }
+  .head3{
+      position: relative;
+      left:100px;
+  }
+
+
+}
+
+.tag-cmp{
+box-shadow: 10px 15px 5px rgba(0,0,0,.3);
+padding: 20px;
+position: relative;
+right:-300px;
+p{font-size:30px;}
+}
+.bgimage{
+width:600px;
+height:400px;
+position: absolute;
+bottom: 10px;
+left: 20px;
+background-color: rgb(255, 79, 79);
+z-index: -1;
+}
+
+
+
+
+  @media screen and (min-width: 2000px) {
+    padding-top: 8rem;
+  }
+
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 450px) {
+    padding: 6rem 1rem 2rem;
+  }
+}
+
+

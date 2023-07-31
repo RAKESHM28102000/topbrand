@@ -11,7 +11,7 @@ const Quest = ({ question, answer }) => {
 
   return (
     <div>
-    <div className="question-container">
+    <div className="question-container" onClick={handleToggleAnswer}>
       <div className="question">
         {question} <button className='buttoninquestion'onClick={handleToggleAnswer}><FaLongArrowAltRight className='iconinques'/></button>
       </div>

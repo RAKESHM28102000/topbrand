@@ -5,7 +5,6 @@ import './Work.scss';
 const Work = () => (
  <div id='work'>
      <div className='workinner'>
-   
      <div className='workin'>
        <p className='para'> OUR SERVICE</p>
        <h1 className='para'>Influence Marketing <br/> Strategy</h1>

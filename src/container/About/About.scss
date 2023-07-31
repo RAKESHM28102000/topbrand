@@ -1,79 +1,84 @@
-#about {
-  position: relative;
+.about{
   min-height: 100vh;
-  // disable the default padding styles
-  .app__wrapper {
-    padding: 0;
-
-    .copyright {
-      display: none;
-    }
-  }
+  display:flex;
+  justify-content:start;
+  align-items:center;
+    
 }
-.app__flex{
-   display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
+.aboutinner{
+    width: 80%;
+    height:80vh;
+    display:flex;
+    justify-content:space-around;
+    margin-left:100px;
+ 
+  
+    
 }
-.app__about {
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-    position: relative;
-
-.app__about-badge{
- .head-text{
-  font-size: 100px;
-  }
-  .head1{
-    position: relative;
-    left:-200px;
-  }
-  .head2{
-      position: relative;
-      left:-10px;
-  }
-  .head3{
-      position: relative;
-      left:100px;
-  }
-
-
-}
-
-.tag-cmp{
-box-shadow: 10px 15px 5px rgba(0,0,0,.3);
-padding: 20px;
-position: relative;
-right:-300px;
-p{font-size:30px;}
-}
-.bgimage{
-width:600px;
-height:400px;
-position: absolute;
-bottom: 10px;
-left: 20px;
-background-color: rgb(255, 79, 79);
-z-index: -1;
-}
-
-
-
-
-  @media screen and (min-width: 2000px) {
-    padding-top: 8rem;
-  }
-
-  @media screen and (max-width: 1200px) {
+.aboutBox{
+    display:flex;
     flex-direction: column;
-  }
-
-  @media screen and (max-width: 450px) {
-    padding: 6rem 1rem 2rem;
-  }
+    justify-content:start;
+    align-items:start;
+    text-align: left;
+.imgincard{
+    width: 400px;
+    height: 400px;
 }
+ .para{
+    padding: 5px;
+    font-size: 12px;
+ }
+ .head{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+ }
+}
+.boxabout1{
+    // position: relative;
+    // top:-50px;
+    align-self: flex-start;
+}
+.boxabout2{
+    align-self:last baseline;
+}
+@media (max-width:1028px) {
+    .about{
+        align-items:center;
+          
+      }
+      .aboutinner{
+           width:90%;
+           height:80vh;
+           display:flex;
+           flex-direction: column;
+           justify-content:space-around;
+           align-items: center;
+         
+ }
+      .aboutBox{      
+        .imgincard{
+            width:200px;
+            height:200px;
+        }
+       .para{
+          padding:3px;
+          font-size:8px;
+       }
+       .head{
+          font-size:12px;
+          font-weight: bold;
+          padding:2px;
+       }
+      }
+      .boxabout1{
+         align-self:flex-start;
+      }
+      .boxabout2{
+         align-self:flex-start;
+      }
 
 
+    
+}

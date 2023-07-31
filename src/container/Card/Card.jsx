@@ -2,7 +2,7 @@ import React from 'react'
 import './Card.scss'
 function Card(props) {
   return (
-    <div className='card' style={{justifyContent:props.parentpostion}}>
+    <div className='card'>
        <div className='cardinner'>
         <div className='cardBox box1' style={{alignSelf:props.postion1}}>
           {/* <img src={`./images/about0${props.img1}.png`} alt='card1' width='400px' height='400px'/> */}

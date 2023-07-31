@@ -78,7 +78,12 @@
     align-items: center;
   }
 .app__header {
+      display: flex;
+    flex-direction: column;
+    justify-content:space-around;
     align-items: center;
+    position: relative;
+   
 .app__header-badge{
    .head-text{
     font-size:30px;
@@ -96,16 +101,15 @@
     }
 }
 .tag-cmp{
-  padding:10px;
+  padding:20px;
+  margin:0 auto;
   position: static;
   p{font-size:12px;}
 }
 .bgimage{
-  width:340px;
+  width:300px;
   height:250px;
-  position: absolute;
-  bottom: 10px;
-  left: 20px;
+  position:static;
 }
  }
   

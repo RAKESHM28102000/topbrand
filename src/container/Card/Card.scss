@@ -1,7 +1,7 @@
 .card{
   min-height: 100vh;
   display:flex;
-  justify-content:start;
+  justify-content:center;
   align-items:center;
     
 }
@@ -49,11 +49,12 @@
           
       }
       .cardinner{
-          width:80%;
-          height:100vh;
-          display:flex;
-          flex-direction: column;
-          align-items: center; 
+           width:90%;
+           height:80vh;
+           display:flex;
+           flex-direction: column;
+           justify-content:space-around;
+           align-items: center;
 
  }
       .cardBox{      
@@ -72,10 +73,10 @@
        }
       }
       .box1{
-        align-items: center;
+         align-self:flex-start;
       }
       .box2{
-        align-items: center;
+         align-self:flex-start;
       }
     
 }

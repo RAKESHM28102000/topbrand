@@ -23,9 +23,8 @@ function App() {
    <><Navbar/>
      <Header/>
      <NewsScroll newsData={newsData} />
-     {/* <About/> */}
-     <Card postion1='flex-start' postion2='last baseline' parentpostion='start' head1={obj.name1} head2={obj.name2} img1={1} img2={2}/>
-     <Card postion1='flex-start' postion2='last baseline' parentpostion='center' head1={obj.name3} head2={obj.name4} img1={3} img2={4}/>
+     <About  head1={obj.name1} head2={obj.name2} img1={1} img2={2}/>
+     <Card  head1={obj.name3} head2={obj.name4} img1={3} img2={4}/>
      <Project/>
      <Work/>
      <Question/>
